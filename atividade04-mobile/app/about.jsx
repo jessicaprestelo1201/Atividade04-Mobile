@@ -8,8 +8,11 @@ const About = () => {
 
   return (
     <View style={styles.container}>
+      <Text style={styles.title}>Sobre nosso Jardim Encantado</Text>
       <Text style={styles.text}>
-        Este é um aplicativo exemplo criado para demonstrar o uso do Expo e React Native.
+        O Jardim Encantado é o seu espaço digital perfeito para explorar, aprender e comprar flores incríveis para todos os momentos da sua vida. 
+        Com uma variedade de flores, arranjos e dicas de cuidados, nosso aplicativo oferece uma experiência única para os amantes da natureza. 
+        Descubra o encanto de cada pétala e transforme seu ambiente com a beleza das flores!
       </Text>
       <Pressable style={styles.button} onPress={() => router.back()}>
         <Text style={styles.buttonText}>Voltar</Text>
@@ -23,21 +26,35 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    backgroundColor: '#F7F8F9',
     padding: 16,
   },
-  text: {
-    fontSize: 18,
+  title: {
+    fontSize: 24,
+    fontWeight: 'bold',
     marginBottom: 20,
+    color: '#E8B3E4',
     textAlign: 'center',
   },
+  text: {
+    fontSize: 16,
+    color: '#333',
+    marginBottom: 30,
+    textAlign: 'center',
+    lineHeight: 24,
+  },
   button: {
-    padding: 10,
-    backgroundColor: '#6200ea',
-    borderRadius: 5,
+    padding: 12,
+    backgroundColor: '#E8B3E4',
+    borderRadius: 8,
+    width: 150,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   buttonText: {
     color: 'white',
     fontSize: 16,
+    fontWeight: 'bold',
   },
 });
 
