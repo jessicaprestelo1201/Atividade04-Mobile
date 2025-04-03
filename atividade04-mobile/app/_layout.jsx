@@ -5,14 +5,14 @@ export default function RootLayout() {
         <Stack screenOptions={{ 
             headerShown: true,
             headerStyle: {
-                backgroundColor: '#3b5998',
+                backgroundColor: '#E8B3E4',
             }, 
             headerTintColor: '#fff',
             headerTitleStyle: {
                 fontWeight: 'bold',
             }
         }}>
-            <Stack.Screen name="index" options={{ title: 'Home'}}/>
+            <Stack.Screen name="index" options={{ title: 'Jardim Encantado'}}/>
             <Stack.Screen name="about" options={{ title: 'Sobre'}}/>
             <Stack.Screen name="login" options={{ title: 'Login'}}/>
             <Stack.Screen name="Termos" options={{ title: 'Termos'}}/>

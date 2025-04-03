@@ -10,7 +10,6 @@ const Login = () => {
   const router = useRouter();
 
   const handleLogin = () => {
-    // Adicione a lógica de autenticação aqui
     console.log('Usuário:', username, 'Senha:', password);
   };
 
@@ -56,7 +55,7 @@ const styles = StyleSheet.create({
   },
   button: {
     padding: 10,
-    backgroundColor: '#6200ea',
+    backgroundColor: '#E8B3E4',
     marginBottom: 10,
     borderRadius: 5,
   },
